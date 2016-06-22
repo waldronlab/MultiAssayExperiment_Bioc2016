@@ -24,6 +24,6 @@ Imports:
     rmarkdown,
     shinydashboard,
     shiny
-VignetteBuilder: knitr
+VignetteBuilder: rmarkdown
 LazyData: true
 LazyLoad: yes
