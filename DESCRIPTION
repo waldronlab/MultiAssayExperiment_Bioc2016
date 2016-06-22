@@ -24,6 +24,6 @@ Imports:
     Biobase,
     shinydashboard,
     shiny
-VignetteBuilder: rmarkdown
+VignetteBuilder: knitr
 LazyData: true
 LazyLoad: yes
