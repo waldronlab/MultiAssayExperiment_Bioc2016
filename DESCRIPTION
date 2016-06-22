@@ -9,7 +9,8 @@ Description: Learning materials for the Bioconductor 2016 conference workshop.
         Including examples and required dependencies.
 License: Artistic-2.0
 Depends: R (>= 3.3.0)
-Suggests: BiocStyle,
+Suggests:
+    BiocStyle,
     knitr,
     rmarkdown
 Imports:
@@ -21,7 +22,6 @@ Imports:
     S4Vectors,
     IRanges,
     Biobase,
-    rmarkdown,
     shinydashboard,
     shiny
 VignetteBuilder: rmarkdown
