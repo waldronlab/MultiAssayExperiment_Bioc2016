@@ -1,0 +1,29 @@
+Package: MultiAssayExperimentBioc2016
+Type: Package
+Title: Learn about the MultiAssayExperiment object
+Version: 0.1.0
+Date: 2016-06-22
+Author: M. Ramos, and A. Culhane
+Maintainer: Marcel Ramos <mramos09@gmail.com>
+Description: Learning materials for the Bioconductor 2016 conference workshop.
+        Including examples and required dependencies.
+License: Artistic-2.0
+Depends: R (>= 3.3.0)
+Suggests: BiocStyle,
+    knitr,
+    rmarkdown
+Imports:
+    MultiAssayExperiment,
+    methods,
+    GenomicRanges,
+    BiocGenerics,
+    SummarizedExperiment,
+    S4Vectors,
+    IRanges,
+    Biobase,
+    rmarkdown,
+    shinydashboard,
+    shiny
+VignetteBuilder: knitr
+LazyData: true
+LazyLoad: yes

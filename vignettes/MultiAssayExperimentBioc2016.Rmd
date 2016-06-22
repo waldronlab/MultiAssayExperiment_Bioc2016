@@ -1,0 +1,32 @@
+---
+title: "MultiAssayExperiment Introduction Bioconductor 2016"
+author: "Marcel Ramos, Aedin Culhane"
+date: "`r doc_date()`"
+package: "`r pkg_ver('MultiAssayExperiment')`"
+abstract: >
+  Create your own MultiAssayExperiment from your data
+vignette: >
+  %\VignetteIndexEntry{MultiAssayExperiment Getting Started}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+output: 
+  BiocStyle::html_document
+---
+
+# API documentation 
+
+You can load the API page by typing: 
+
+```{r, eval = FALSE}
+API()
+```
+
+# Overview of the `MultiAssayExperiment` class
+
+```{r}
+library(MultiAssayExperiment)
+emptyMAE <- MultiAssayExperiment()
+emptyMAE
+slotNames(emptyMAE)
+```
+
