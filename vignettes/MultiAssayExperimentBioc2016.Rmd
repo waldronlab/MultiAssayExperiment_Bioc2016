@@ -1,6 +1,6 @@
 ---
 title: "MultiAssayExperiment Introduction Bioconductor 2016"
-author: "Marcel Ramos, Aedin Culhane"
+author: "Marcel Ramos"
 date: "`r doc_date()`"
 package: "`r pkg_ver('MultiAssayExperiment')`"
 abstract: >
