@@ -3,7 +3,9 @@ Type: Package
 Title: Learn about the MultiAssayExperiment object
 Version: 0.1.0
 Date: 2016-06-22
-Author: M. Ramos, and A. Culhane
+Author@R: person("Marcel", "Ramos",
+        email = "mramos09@gmail.com",
+        role = "cre")
 Maintainer: Marcel Ramos <mramos09@gmail.com>
 Description: Learning materials for the Bioconductor 2016 conference workshop.
         Including examples and required dependencies.
